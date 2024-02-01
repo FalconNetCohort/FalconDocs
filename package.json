@@ -1,16 +1,21 @@
 {
-  "dependencies": {
-    "firebase": "^10.7.2"
-  },
-  "name": "falcondocs",
-  "description": "",
+  "name": "nextjs-pdf-search",
   "version": "1.0.0",
+  "description": "Search text inside a PDF file stored in Firebase storage using Next.js",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "npm run dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "firebase-admin": "^10.3.0",
+    "pdf-parse": "^1.1.1",
+    "cors": "^2.8.5",
+    "axios": "^0.26.1",
+    "node-fetch": "^3.3.2"
+  }
 }
