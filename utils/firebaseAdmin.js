@@ -1,6 +1,6 @@
 // utils/firebaseAdmin.js
 import * as admin from 'firebase-admin';
-import * as serviceAccount from 'falcondocs-bc034-firebase-adminsdk-4ymhk-f2e8eab962.json';
+import * as serviceAccount from 'firebase.js';
 
 if (!admin.apps.length) {
     admin.initializeApp({

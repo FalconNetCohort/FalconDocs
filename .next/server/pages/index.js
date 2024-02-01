@@ -22,7 +22,6 @@ const jsx_runtime_namespaceObject = require("react/jsx-runtime");
 var external_react_ = __webpack_require__(689);
 ;// CONCATENATED MODULE: ./pages/index.js
 
-// pages/index.js
 
 function Home() {
     const { 0: text , 1: setText  } = (0,external_react_.useState)('');
